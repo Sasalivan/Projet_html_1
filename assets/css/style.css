@@ -1,15 +1,55 @@
-.navigation_test_1{
-    background-color: rgb(132, 230, 255);
+/*
+intro css
+*/
+div.tetepage{
+    width:1536px;
+    height:72px;
 }
 
+div.tetepage a{
+        padding: 2.6px;
+        font-size: 16px;
+        width: 16px;
+        text-align: center;
+        text-decoration: none;
+        margin: inherit;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: inherit;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
 
-.button1 {
-    background-color: rgb(248, 213, 149); 
-    color: black; 
-    border: 2px solid #f8883d;
-  }
-  
-.button1:hover {
-    background-color: #4CAF50;
-    color: white;
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+
+
+div.presentation{
+    background-image: url("../images/piedsport.jpg");
+    width:548.5px;
+    height:592px;
+}
+
+div.titre{
+    width: 548.5px;
+    height: 336.4px;
+
+}
+
+div.textphoto{
+    width: 548.5px;
+    height: 928.4px;
+
 }
