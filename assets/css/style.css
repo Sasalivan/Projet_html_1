@@ -1,8 +1,18 @@
 /*
 intro css
 */
+
+*{
+  box-sizing: border-box;
+}
+
+div.contenair{
+    width: 1140px;
+    margin: auto;
+}
+
 div.tetepage{
-    width:1536px;
+    width:1140px;
     height:72px;
 }
 
@@ -38,18 +48,27 @@ div.tetepage a{
 
 div.presentation{
     background-image: url("../images/piedsport.jpg");
-    width:548.5px;
+    width:529px;
     height:592px;
+    float: left;
+    margin: 10px;
+    
 }
 
 div.titre{
-    width: 548.5px;
+    width: 529px;
     height: 336.4px;
+    margin: 10px;
 
 }
 
 div.textphoto{
-    width: 548.5px;
+    width: 529px;
     height: 928.4px;
+    float: left;
+    margin: 10px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-top: 60px;
 
 }
