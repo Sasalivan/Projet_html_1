@@ -11,23 +11,30 @@ div.contenair{
     margin: auto;
 }
 
+div.contenair ::before{
+    height: 640px;
+    width: 375px;
+    margin: 50px 0 0 auto;
+    background-color: #fef0e8;
+  }
+
 div.tetepage{
     width:1140px;
     height:72px;
 }
 
 div.tetepage a{
-        padding: 2.6px;
-        font-size: 16px;
-        width: 16px;
-        text-align: center;
+  padding: 2.6px;
+  font-size: 16px;
+  width: 16px;
+  text-align: center;
         text-decoration: none;
         margin: inherit;
         border-radius: 50%;
       }
       
       .fa:hover {
-          opacity: inherit;
+        opacity: inherit;
       }
       
       .fa-facebook {
@@ -39,12 +46,11 @@ div.tetepage a{
         background: #55ACEE;
         color: white;
       }
-
+      
       .fa-instagram {
         background: #125688;
         color: white;
       }
-
 
 div.presentation{
     background-image: url("../images/piedsport.jpg");
@@ -52,23 +58,53 @@ div.presentation{
     height:592px;
     float: left;
     margin: 10px;
-    
+    background-size: cover;
 }
 
 div.titre{
-    width: 529px;
-    height: 336.4px;
+  width: 468.500px;
+  height: 115.200px;
     margin: 10px;
+    z-index: 1;
 
 }
 
+div.titre h2{
+  font-weight: 700;
+  font-size: 3rem;
+  color: #f66f24;
+  font-family: 'playfair Display';
+    line-height: 1.2;
+  }
+
+div.titre p{
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #111111;
+  font-family: 'Roboto',sans-serif;
+  line-height: 2;
+}
+
 div.textphoto{
-    width: 529px;
-    height: 928.4px;
-    float: left;
-    margin: 10px;
-    padding-left: 60px;
+  width: 529px;
+  height: 928.4px;
+  float: left;
+  margin: 10px;
+  padding-left: 60px;
     padding-bottom: 30px;
     padding-top: 60px;
+    z-index: 1;
+    
+  }
 
+div.textphoto img{
+    width: 469px;
+    
+}
+div.textphoto p{
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #111111;
+  font-family: 'Roboto',sans-serif;
+  line-height: 2;
 }
